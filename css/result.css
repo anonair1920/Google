@@ -1,0 +1,62 @@
+.firstNav{
+    padding: 0px 30px 4px 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.leftFirst{
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 600px;
+    height: 34px;
+    font-size: 20px;
+    box-shadow: none;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 0px 42px;
+  }
+  
+  input:focus {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+  }
+  
+  input:hover {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+  }
+
+  .smalllogo{
+      padding-right: 32px;
+  }
+
+  .searchIcon{
+    position: absolute;
+    margin: 19px 0px 0px 20px;
+  }
+
+  .microphoneIcon{
+    position: absolute;
+    margin: 19px 20px 0px -30px;
+  }
+  
+  .secondNav{
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 550px 25px 180px;
+      border-bottom: 1px solid lightgrey;
+      width: 100%;
+  }
+
+  a {
+      padding: 4px;
+  }
+  
+  p{
+      padding-left: 180px;
+  }
